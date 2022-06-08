@@ -1,8 +1,9 @@
-'''import colorama
-from colorama import Fore'''
+import colorama
+from colorama import Fore
 
 
-'''letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',]
+
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',]
 print(Fore.GREEN + str(letters))
 letters += 'nopqr'
 print(Fore.BLUE + str(letters))
@@ -41,7 +42,7 @@ friends.insert(2, "Sandy")
 print(friends)
 print(friends.count("Sandy"))
 friends.sort()
-print(friends)'''
+print(friends)
 
 groceries = ['milk', 'coffee', 'bread', 'eggs']
 print(groceries)
@@ -49,3 +50,4 @@ groceries[0] = "OJ"
 print(groceries[0])
 del groceries[3]
 print(groceries)
+
